@@ -1,19 +1,19 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "9885470")) #optional
+API_HASH = getenv("API_HASH", "84ff6bdb8eeb6e8bedf8a8192e3da3dd") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
-PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+OWNER_ID = int(getenv("OWNER_ID", "5440768701"))
+MONGO_URL = getenv("MONGO_URL","mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority")
+BOT_TOKEN = getenv("BOT_TOKEN", "5618483684:AAH-bBJO5_QuZF39MRjgI3TGqOmg9VE1nEc")
+ALIVE_PIC = getenv("ALIVE_PIC","https://te.legra.ph/file/cec5a117ff959166f7b6f.jpg")
+ALIVE_TEXT = getenv("ALIVE_TEXT","Nehal")
+PM_LOGGER = getenv("PM_LOGGER","-1001598879298")
+LOG_GROUP = getenv("LOG_GROUP","-1001598879298")
 
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
-STRING_SESSION2 = getenv("STRING_SESSION2", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "AQC2KuRB0-8N3pgTljI_EGXpNarvYIRtTcDFVs7ZSX4UX_BVZ2718GIA3u5S4LWhvjh2srlWTg5V5vDG0jx7-aW0WMWSOi4W4Tt-Wg61p7h0Z648OaKl4kOCpDMpYVSy0ZvUbPgIbBgFM3Pv3gU7A1qkQ9PheLzcpnbRTVj2McnekJe1Wm_4iAGz_V_R7cn7DtW7BffnhwTyjblwB75OfkWHV5jhiFtXZC-W8X0iI7N1BHT-INTxmF6HQy7-g0slTQYjsavl6-SWD5zGP9sV87FVnWNVw4bjJ4yTDl6xu4TQyH9aeaqLC8YDA1A1xqUhl572GVywULeFU2RkHQpfaAgnAAAAAVcGgB4A")
+STRING_SESSION2 = getenv("STRING_SESSION2", "AQC2KuRB0-8N3pgTljI_EGXpNarvYIRtTcDFVs7ZSX4UX_BVZ2718GIA3u5S4LWhvjh2srlWTg5V5vDG0jx7-aW0WMWSOi4W4Tt-Wg61p7h0Z648OaKl4kOCpDMpYVSy0ZvUbPgIbBgFM3Pv3gU7A1qkQ9PheLzcpnbRTVj2McnekJe1Wm_4iAGz_V_R7cn7DtW7BffnhwTyjblwB75OfkWHV5jhiFtXZC-W8X0iI7N1BHT-INTxmF6HQy7-g0slTQYjsavl6-SWD5zGP9sV87FVnWNVw4bjJ4yTDl6xu4TQyH9aeaqLC8YDA1A1xqUhl572GVywULeFU2RkHQpfaAgnAAAAAVAV2OsA")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
 STRING_SESSION5 = getenv("STRING_SESSION5", "")
