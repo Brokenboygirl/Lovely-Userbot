@@ -4,7 +4,7 @@ API_ID = int(getenv("API_ID", "9885470")) #optional
 API_HASH = getenv("API_HASH", "84ff6bdb8eeb6e8bedf8a8192e3da3dd") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5440768701").split()))
-OWNER_ID = int(getenv("OWNER_ID", "5440768701"))
+OWNER_ID = int(getenv("OWNER_ID", "5220826180"))
 MONGO_URL = getenv("MONGO_URL","mongodb+srv://AbishnoiMusic:AbishnoiMusic29@cluster0.k7sfn.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "5618483684:AAH-bBJO5_QuZF39MRjgI3TGqOmg9VE1nEc")
 ALIVE_PIC = getenv("ALIVE_PIC","https://te.legra.ph/file/cec5a117ff959166f7b6f.jpg")
