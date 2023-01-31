@@ -1,15 +1,15 @@
 import asyncio
 import importlib
 from pyrogram import Client, idle
-from Zaid.helper import join
-from Zaid.modules import ALL_MODULES
-from Zaid import clients, app, ids
+from Lovely.helper import join
+from Lovely.modules import ALL_MODULES
+from Lovely import clients, app, ids
 
 async def start_bot():
     await app.start()
     print("LOG: Founded Bot token Booting..")
     for all_module in ALL_MODULES:
-        importlib.import_module("Zaid.modules" + all_module)
+        importlib.import_module("Lovely.modules" + all_module)
         print("Successfully Imported Modules 💥")
     for cli in clients:
         try:
