@@ -4,9 +4,9 @@ from googlesearch import search
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Zaid.helper.basic import edit_or_reply
+from Lovely.helper.basic import edit_or_reply
 
-from Zaid.modules.help import *
+from Lovely.modules.help import *
 
 
 def googlesearch(query):
