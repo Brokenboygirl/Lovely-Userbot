@@ -24,7 +24,7 @@ else:
         f"├• **ρуяσgяαм**: `{__version__}`\n"
         f"├• **ѕυρρσят**: [Click](t.me/Friendship_lovely)\n"
         f"├• **¢нαииєℓ**: [Click](t.me/NehalG143)\n"
-        f"└• **яєρσ**: [Click](https://GitHub.com/itz-zaid/Zaid-Userbot)"        
+        f"└• **яєρσ**: [Click](https://github.com/Brokenboygirl/Lovely-Userbot)"        
     )
 
 @Client.on_message(
