@@ -1,11 +1,11 @@
 from pyrogram import filters, Client
 import asyncio
-from Zaid import SUDO_USER
-from Zaid.modules.help import *
+from Lovely import SUDO_USER
+from Lovely.modules.help import *
 from pyrogram.methods import messages
 from .pmguard import get_arg, denied_users
 
-import Zaid.database.pmpermitdb as Zaid
+import Lovely.database.pmpermitdb as Zaid
 
 
 
