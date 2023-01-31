@@ -1,1 +1,1 @@
-from Zaid.modules.help.help import *
+from Lovely.modules.help.help import *
