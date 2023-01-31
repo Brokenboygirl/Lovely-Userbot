@@ -3,8 +3,8 @@ import asyncio
 from pyrogram.types import Message 
 
 from pyrogram.methods import messages
-from Zaid.database.pmpermitdb import get_approved_users, pm_guard
-import Zaid.database.pmpermitdb as Zaid
+from Lovely.database.pmpermitdb import get_approved_users, pm_guard
+import Lovely.database.pmpermitdb as Lovely 
 from config import LOG_GROUP, PM_LOGGER
 FLOOD_CTRL = 0
 ALLOWED = []
@@ -34,7 +34,7 @@ async def pmguard(client, message):
     if not arg:
         await message.edit("**Set limit to what?**")
         return
-    await Zaid.set_limit(int(arg))
+    await Lovely.set_limit(int(arg))
     await message.edit(f"**Limit set to {arg}**")
 
 
@@ -46,10 +46,10 @@ async def setpmmsg(client, message):
         await message.edit("**What message to set**")
         return
     if arg == "default":
-        await Zaid.set_block_message(Zaid.BLOCKED)
+        await Lovely.set_block_message(Zaid.BLOCKED)
         await message.edit("**Block message set to default**.")
         return
-    await Zaid.set_block_message(f"`{arg}`")
+    await Lovely.set_block_message(f"`{arg}`")
     await message.edit("**Custom block message set**")
 
 
@@ -57,7 +57,7 @@ async def setpmmsg(client, message):
 async def allow(client, message):
     chat_id = message.chat.id
     pmpermit, pm_message, limit, block_message = await Zaid.get_pm_settings()
-    await Zaid.allow_user(chat_id)
+    await Lovely.allow_user(chat_id)
     await message.edit(f"**I have allowed [you](tg://user?id={chat_id}) to PM me.**")
     async for message in client.search_messages(
         chat_id=message.chat.id, query=pm_message, limit=1, from_user="me"
