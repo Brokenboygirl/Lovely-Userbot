@@ -1,7 +1,7 @@
-from Zaid.database import cli
+from Lovely.database import cli
 import asyncio
 
-collection = cli["Zaid"]["pmpermit"]
+collection = cli["Lovely"]["pmpermit"]
 
 PMPERMIT_MESSAGE = (
     "**ᴡᴀʀɴɪɴɢ!⚠️ ᴘʟᴢ ʀᴇᴀᴅ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴄᴀʀᴇꜰᴜʟʟʏ..\n\n**"
