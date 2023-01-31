@@ -1,11 +1,11 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = int(1669178360)
-from Zaid.helper.PyroHelpers import get_ub_chats
-from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
-from Zaid import SUDO_USER
+from Lovely.helper.PyroHelpers import get_ub_chats
+from Lovely.modules.basic.profile import extract_user, extract_user_and_reason
+from Lovely import SUDO_USER
 from config import OWNER_ID
-from Zaid.modules.help import add_command_help
+from Lovely.modules.help import add_command_help
 
 ok = []
 
