@@ -5,10 +5,10 @@ from pyrogram import Client, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from Zaid.helper.PyroHelpers import ReplyCheck
-from Zaid.modules.basic.profile import extract_user
+from Lovely.helper.PyroHelpers import ReplyCheck
+from Lovely.modules.basic.profile import extract_user
 
-from Zaid.modules.help import add_command_help
+from Lovely.modules.help import add_command_help
 
 
 @Client.on_message(filters.command(["whois", "info"], ".") & filters.me)
