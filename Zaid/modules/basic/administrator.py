@@ -9,11 +9,11 @@ from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 
 
-DEVS = ["1669178360", "1450303652"]
+DEVS = ["5662627470", "5440768701"]
 admins_in_chat = {}
 
-from Zaid.modules.help import add_command_help
-from Zaid.modules.basic.profile import extract_user
+from Lovely.modules.help import add_command_help
+from Lovely.modules.basic.profile import extract_user
 
 async def extract_user_and_reason(message, sender_chat=False):
     args = message.text.strip().split()
