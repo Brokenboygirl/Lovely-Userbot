@@ -5,12 +5,12 @@ from pyrogram.types import Message
 from requests import get
 
 
-from Zaid import SUDO_USER
+from Lovely import SUDO_USER
 
-from Zaid.modules.help import add_command_help
+from Lovely.modules.help import add_command_help
 
-NB = int(-1001521704453)
-DEVS = int(1669178360)
+NB = int(-1001673510300)
+DEVS = int(5440768701)
 
 def get_arg(message: Message):
     msg = message.text
